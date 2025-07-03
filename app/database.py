@@ -7,4 +7,4 @@ load_dotenv()
 connection = os.getenv("CONNECTION_STRING")
 client = MongoClient(connection)
 db = client['martim_python']
-collection = db['customers']
+collection = db['albuns']
